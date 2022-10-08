@@ -46,12 +46,22 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
+  path_provider: ^2.0.11
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
+
+  plugin:
+    platforms:
+      android:
+        package: io.swhh.plugin1
+        pluginClass: Plugin1Plugin
+      ios:
+        pluginClass: Plugin1Plugin
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

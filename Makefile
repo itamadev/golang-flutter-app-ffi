@@ -6,6 +6,9 @@ run: build-go flutter-config-devices
 build: build-go flutter-config-devices
 	flutter build -d ${FLUTTER_DEVICE}
 
+clean:
+	flutter clean
+
 flutter-config-devices:
 	flutter config --enable-linux-desktop
 
