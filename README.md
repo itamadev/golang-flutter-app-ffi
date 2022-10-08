@@ -25,7 +25,25 @@ $ make run
 $ make run FLUTTER_DEVICE=chrome
 ```
 
-You can use this project as boilerplate for `Golang` + `Flutter` - `FFI Communitation`
+## Tested Devices
+
+The following are the [Flutter Supported Devices](https://docs.flutter.dev/development/tools/sdk/release-notes/supported-platforms#supported-platforms)  
+
+### Mobile
+
+- [ ] android
+- [ ] ios
+
+### Desktop
+
+- [x] windows
+- [ ] linux
+
+### Web
+
+- [x] chrome
+- [ ] edge
+- [ ] firefox
 
 ## Project Structure
 
