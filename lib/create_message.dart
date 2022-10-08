@@ -6,7 +6,7 @@ typedef CreateMessageFunctionTemplate = ffi.Pointer Function(
 
 typedef CreateMessage = CreateMessageFunctionTemplate;
 
-final dylib = ffi.DynamicLibrary.open('./vendor/out/text.a');
+final dylib = ffi.DynamicLibrary.open('vendor/out/text.a');
 
 final CreateMessage _createMessage = dylib
     .lookup<ffi.NativeFunction<CreateMessageFunctionTemplate>>('CreateMessage')
