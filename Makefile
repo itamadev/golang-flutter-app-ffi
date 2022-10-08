@@ -10,4 +10,4 @@ flutter-config-devices:
 	flutter config --enable-linux-desktop
 
 build-go: 
-	go build -buildmode=c-shared -o ./vendor-out/text.a ./vendor/text.go
+	go build -buildmode=c-shared -o ./vendor/out/text.a ./vendor/text.go
