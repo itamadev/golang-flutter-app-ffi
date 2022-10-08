@@ -39,12 +39,6 @@ The following are the [Flutter Supported Devices](https://docs.flutter.dev/devel
 - [x] windows
 - [ ] linux
 
-### Web
-
-- [x] chrome
-- [ ] edge
-- [ ] firefox
-
 ## Project Structure
 
 - lib
