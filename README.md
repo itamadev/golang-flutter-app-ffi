@@ -53,7 +53,7 @@ The following are the [Flutter Supported Devices](https://docs.flutter.dev/devel
 - vendor
   - text.go
   - go.mod
-- vendor-out (tmp)
+- vendor/out (tmp)
   - text.a
   - text.h
 
@@ -63,7 +63,7 @@ The following are the [Flutter Supported Devices](https://docs.flutter.dev/devel
 
 `vendor` - Golang files as backend
 
-`vendor-out` - Golang compiled files
+`vendor/out` - Golang compiled files
 
 ## License
 
