@@ -6,6 +6,7 @@ the app is a very simple note taking app that currently allows you to whip up a 
 ## Example
 
 ![Example](docs/gifs/first_example.gif)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fitamadev%2Fgolang-flutter-app-ffi.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fitamadev%2Fgolang-flutter-app-ffi?ref=badge_shield)
 
 ## Prerequisites
 
@@ -62,3 +63,6 @@ The following are the [Flutter Supported Devices](https://docs.flutter.dev/devel
 ## License
 
 [MIT](LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fitamadev%2Fgolang-flutter-app-ffi.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fitamadev%2Fgolang-flutter-app-ffi?ref=badge_large)
